@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+	banner = {
+		title: 'Give your doubt the best short in the world of today\'s technology',
+		description: 'We have the ultimate tool to make your tech setup a breeze'
+	}
+
   constructor() { }
 
   ngOnInit() {

@@ -23,9 +23,35 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/assets/themify-icons/themify-icons.css",
+              "src/assets/assets/ionicons/css/ionicons.min.css",
+              "src/assets/assets/lity/lity.min.css",
+              "src/assets/assets/sweetalert/sweetalert.css",
+              "src/assets/assets/owl-carousal/owl.carousel.min.css",
+              "src/assets/assets/tab/bootstrap-responsive-tabs.css",
+              "src/assets/assets/swiper/swiper.min.css",
+              "src/assets/assets/aos/aos.css",
+              "src/assets/css/style.css",
+              "src/assets/css/media.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.2.1.min.js",
+              "src/assets/assets/bootstrap/js/popper.js",
+              "src/assets/assets/bootstrap/js/bootstrap.min.js",
+              "src/assets/assets/lity/lity.min.js",
+              "src/assets/assets/sweetalert/sweetalert.js",
+              "src/assets/assets/owl-carousal/owl.carousel.min.js",
+              "src/assets/assets/swiper/swiper.min.js",
+              "src/assets/assets/tab/jquery.bootstrap-responsive-tabs.min.js",
+              "src/assets/js/menu.js",
+              "src/assets/assets/waypoints/waypoints.min.js",
+              "src/assets/assets/counterup/jquery.counterup.min.js",
+              "src/assets/assets/aos/aos.js",
+              "src/assets/assets/isotope/isotope.min.js",
+              "src/assets/assets/isotope/isotope-need.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
