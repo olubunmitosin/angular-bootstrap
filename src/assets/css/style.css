@@ -2385,7 +2385,8 @@ nav.light-bg-nav.blank-menu
 }
 .saas-banner
 {
-  background:#c0adff;
+  background: url("/assets/banner2.jpg") no-repeat center;
+  background-size: cover;
   position: relative;
   height: 900px;
 }
@@ -2433,7 +2434,7 @@ left: 0;
 {
   margin: 0px 15px;
 }
- a.try-btn
+ a.try-btn, button.try-btn
 {
     color: #ffffff;
     background: #7bcf44;
@@ -2447,6 +2448,10 @@ left: 0;
     font-size: 14px;
     letter-spacing: 1px;
     font-weight: 600;
+}
+button.try-btn {
+    border: none !important;
+    
 }
 #white-btn-admin
 {

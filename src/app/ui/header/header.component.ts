@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,14 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-	banner = {
-		title: 'Give your doubt the best short in the world of today\'s technology',
-		description: 'We have the ultimate tool to make your tech setup a breeze'
+  public href: string = "";
+  public filtered_url: string = "";
+
+  banner = {
+		title: 'As one of the first to offer a quality online education,',
+		description: 'we\’ve made it our mission to ensure that our online courses are equal in educational value to our traditional classes.'
 	}
 
-  constructor() { }
+  constructor(private router: Router) { 
+
+    this.href = this.router.url;
+    this.filtered_url = this.href.replace('/','');
+    this.filtered_url = this.filtered_url.replace('-',' ');
+    // this.titleCaseWord();
+  }
 
   ngOnInit() {
+
+
   }
 
 }

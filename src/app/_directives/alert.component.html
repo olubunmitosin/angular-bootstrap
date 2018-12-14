@@ -1,0 +1,13 @@
+ <div *ngIf="message" 
+ [ngClass]="(
+ 'alert co-alert alert-dismissible': message, 
+ 'co-alert-success': message.type === 'success',
+ 'co-alert-warning': message.type === 'warning',
+ 'co-alert-info': message.type === 'info',
+ 'co-alert-danger': message.type === 'error' }" role="alert">
+   <h5>{{ message.title }}</h5>
+   <p>{{ message.text }}</p>
+   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+   <span aria-hidden="true"><i class="ti-close"></i></span>
+   </button>
+</div><!-- end of alert -->
